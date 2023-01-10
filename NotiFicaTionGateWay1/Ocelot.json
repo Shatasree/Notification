@@ -1,0 +1,46 @@
+{
+  
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/api/SendMessage",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7085
+          }
+        ],
+        "UpstreamPathTemplate": "/SendMessage",
+        "UpstreamHttpMethod": [ "Post" ]
+      },
+      {
+        "DownstreamPathTemplate": "/api/API",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7036
+          }
+        ],
+        "UpstreamPathTemplate": "/API",
+        "UpstreamHttpMethod": [ "Post" ]
+      },
+      {
+        "DownstreamPathTemplate": "/api/FirstTemplate",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7234
+          }
+        ],
+        "UpstreamPathTemplate": "/FirstTemplate",
+        "UpstreamHttpMethod": [ "Post" ]
+      },
+
+    ],
+   "GlobalConfiguration": {
+     "BaseUrl": "https://localhost:7036"
+    }
+  }
+

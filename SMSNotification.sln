@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSNotification", "SMSNotification\SMSNotification.csproj", "{54D85F7B-C5FD-418B-B1CB-E9F28D929FED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailNotiFication", "EmailNotiFication\EmailNotiFication.csproj", "{6E92EE4F-7AFA-43CB-B3B2-41772B19EEC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotiFicaTionGateWay1", "NotiFicaTionGateWay1\NotiFicaTionGateWay1.csproj", "{C0C76D72-1F1E-4C81-A348-FE2E23C1D131}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationTemplate", "NotificationTemplate\NotificationTemplate.csproj", "{EB1B50AD-ECBA-4A44-87B2-E9D771C359EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotificationTestProject1", "EmailNotificationTestProject1\EmailNotificationTestProject1.csproj", "{37C36BE0-7C1D-44AA-94F2-D1A0C707939D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsNotificationTestProject1", "SmsNotificationTestProject1\SmsNotificationTestProject1.csproj", "{1AF6CF9F-38E8-4187-94C5-6E39281CE3D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54D85F7B-C5FD-418B-B1CB-E9F28D929FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D85F7B-C5FD-418B-B1CB-E9F28D929FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D85F7B-C5FD-418B-B1CB-E9F28D929FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D85F7B-C5FD-418B-B1CB-E9F28D929FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E92EE4F-7AFA-43CB-B3B2-41772B19EEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E92EE4F-7AFA-43CB-B3B2-41772B19EEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E92EE4F-7AFA-43CB-B3B2-41772B19EEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E92EE4F-7AFA-43CB-B3B2-41772B19EEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C76D72-1F1E-4C81-A348-FE2E23C1D131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C76D72-1F1E-4C81-A348-FE2E23C1D131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C76D72-1F1E-4C81-A348-FE2E23C1D131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C76D72-1F1E-4C81-A348-FE2E23C1D131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1B50AD-ECBA-4A44-87B2-E9D771C359EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1B50AD-ECBA-4A44-87B2-E9D771C359EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1B50AD-ECBA-4A44-87B2-E9D771C359EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1B50AD-ECBA-4A44-87B2-E9D771C359EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C36BE0-7C1D-44AA-94F2-D1A0C707939D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C36BE0-7C1D-44AA-94F2-D1A0C707939D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C36BE0-7C1D-44AA-94F2-D1A0C707939D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C36BE0-7C1D-44AA-94F2-D1A0C707939D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF6CF9F-38E8-4187-94C5-6E39281CE3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF6CF9F-38E8-4187-94C5-6E39281CE3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF6CF9F-38E8-4187-94C5-6E39281CE3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF6CF9F-38E8-4187-94C5-6E39281CE3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABCBB4E2-507A-4990-8253-1CC9140F1A6F}
+	EndGlobalSection
+EndGlobal

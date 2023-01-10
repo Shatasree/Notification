@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XSOGBpjC5VvIZRRvdOrN4SLA/T3EHIkQU1DjkYcIw8o=",
+  "Source": "SMSNotification",
+  "BasePath": "_content/SMSNotification",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
